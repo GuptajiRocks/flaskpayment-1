@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Interface</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="flex justify-center items-center h-screen">
+        <div class="flex space-x-8">
+            <div class="w-1/2 bg-blue-500 rounded-lg p-8 shadow-md">
+                <h2 class="text-2xl font-bold text-white">Send Money</h2>
+                <p class="text-lg text-white mt-4">Easily transfer funds to friends and family.</p>
+                <a href="/acceptSend">
+                <button class="bg-white text-blue-500 hover:bg-blue-100 hover:text-blue-700 font-bold py-2 px-4 rounded mt-8">Send Now</button>
+                </a>
+            </div>
+            <div class="w-1/2 bg-green-500 rounded-lg p-8 shadow-md">
+                <h2 class="text-2xl font-bold text-white">View Transactions</h2>
+                <p class="text-lg text-white mt-4">List of all performed transactions on the portal</p>
+                <a href="/checkBal">
+                <button class="bg-white text-green-500 hover:bg-green-100 hover:text-green-700 font-bold py-2 px-4 rounded mt-8">Check Balance</button>
+                </a>
+            </div>
+            <div class="w-1/2 bg-pink-500 rounded-lg p-8 shadow-md">
+                <h2 class="text-2xl font-bold text-white">View Transactions by ID</h2>
+                <p class="text-lg text-white mt-4">List of all performed transactions by ID</p>
+                <a href="/userBalport">
+                <button class="bg-white text-green-500 hover:bg-green-100 hover:text-green-700 font-bold py-2 px-4 rounded mt-8">Check Balance</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
