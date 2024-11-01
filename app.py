@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from waitress import serve
+# from waitress import serve
 import mysql.connector as mc
 from msq import *
 
