@@ -14,7 +14,7 @@ conn = pyodbc.connect('DRIVER='+driver+';SERVER=tcp:'+server+';PORT=1433;DATABAS
 curs = conn.cursor()
 
 curs.execute("use freeDB;")
-curs.execute("SELECT * FROM INFORMATION_SCHEMA.TABLES;")
+curs.execute('INSERT INTO stock(id, stock, price, name) VALUES(1, "AAPL", 543.3, "Apple Inc");')
 # curs.execute("""CREATE TABLE [dbo].[Customers] (
 #     [CustomerID] INT PRIMARY KEY IDENTITY(1,1),
 #     [FirstName] NVARCHAR(50) NOT NULL,
